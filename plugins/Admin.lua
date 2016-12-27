@@ -224,7 +224,7 @@ end
 	if matches[1] == 'reload' then
 		receiver = get_receiver(msg)
 		reload_plugins(true)
-		return "<b>iManager</b> Reloaded !"
+		return "<b>M A X I M U S</b> Reloaded !"
 	end
 	if matches[1] == 'updateid' then
 		local data = load_data(_config.moderation.data)
